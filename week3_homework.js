@@ -51,3 +51,17 @@ function countEven(numbersArray){
 }
 let numbersArray = [22,55,11,2,5,8,6,4,1,7,9];
 countEven(numbersArray);
+
+//Task 5 (Bonus) — Function + Array
+
+function findMin(numbersArray){
+    let min_num = numbersArray[0];
+    for(let i = 0; i<= numbersArray.length-1;i++){
+        if(numbersArray[i]<min_num){
+            min_num = numbersArray[i];
+        }
+    }
+    console.log("Smallest number = ",min_num);
+}
+let Array2 = [2,4,8,6,4,2,9,3]
+findMin(Array2);
