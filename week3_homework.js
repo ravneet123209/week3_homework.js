@@ -19,3 +19,21 @@ for (let i = 0 ; i<= array.length-1; i ++){
     
 }
 console.log("sum =",sum, "average = " , sum/array.length);
+
+
+//Task 3 — Find Largest Number
+
+let newArray =[11,15,9,8,5,12]
+
+let largest_num = newArray[0];
+
+for(let i = 0 ; i<= newArray.length-1; i ++){
+    if(newArray[i]>largest_num){
+        largest_num = newArray[i];
+
+    }
+
+}
+console.log("Largest number",largest_num);
+
+
