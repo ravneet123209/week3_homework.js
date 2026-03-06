@@ -37,3 +37,17 @@ for(let i = 0 ; i<= newArray.length-1; i ++){
 console.log("Largest number",largest_num);
 
 
+//Task 4 — Function + Array
+
+function countEven(numbersArray){
+    let Even_count = 0;
+    for(let i = 0; i <= numbersArray.length-1; i++ ){
+        if(numbersArray[i]%2 ===0){
+            Even_count++;
+        }
+    }
+    console.log("Even_count = ", Even_count);
+
+}
+let numbersArray = [22,55,11,2,5,8,6,4,1,7,9];
+countEven(numbersArray);
